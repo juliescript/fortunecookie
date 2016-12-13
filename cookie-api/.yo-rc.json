@@ -1,0 +1,12 @@
+{
+  "generator-fireloop": {
+    "version": "1.0.0-alpha.36",
+    "clients": {
+      "fortuneapp": {
+        "path": "../fortuneapp",
+        "type": "nativescript2"
+      }
+    }
+  },
+  "generator-loopback": {}
+}
