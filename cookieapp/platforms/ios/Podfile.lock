@@ -1,0 +1,21 @@
+PODS:
+  - Socket.IO-Client-Swift (8.1.2)
+
+DEPENDENCIES:
+  - Socket.IO-Client-Swift (from `https://github.com/socketio/socket.io-client-swift.git`)
+
+EXTERNAL SOURCES:
+  Socket.IO-Client-Swift:
+    :git: https://github.com/socketio/socket.io-client-swift.git
+
+CHECKOUT OPTIONS:
+  Socket.IO-Client-Swift:
+    :commit: 163a770abc4842250d31b8662354d0df190c2885
+    :git: https://github.com/socketio/socket.io-client-swift.git
+
+SPEC CHECKSUMS:
+  Socket.IO-Client-Swift: 9e58dcad44a57b5f44adbc09dff9f2d5359d1305
+
+PODFILE CHECKSUM: afcb775ef2b6f07da47d87fb32c3b7ce4c0238aa
+
+COCOAPODS: 1.1.1

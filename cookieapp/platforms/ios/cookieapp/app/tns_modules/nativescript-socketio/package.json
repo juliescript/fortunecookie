@@ -1,0 +1,141 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "nativescript-socketio",
+        "scope": null,
+        "escapedName": "nativescript-socketio",
+        "name": "nativescript-socketio",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/itexico/Documents/fortunecookie/cookie-api/cookieapp"
+    ]
+  ],
+  "_from": "nativescript-socketio@latest",
+  "_id": "nativescript-socketio@2.2.9",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/nativescript-socketio",
+  "_nodeVersion": "6.5.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/nativescript-socketio-2.2.9.tgz_1477115317525_0.18475579703226686"
+  },
+  "_npmUser": {
+    "name": "roblav96",
+    "email": "roblav96@gmail.com"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "nativescript-socketio",
+    "scope": null,
+    "escapedName": "nativescript-socketio",
+    "name": "nativescript-socketio",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-socketio/-/nativescript-socketio-2.2.9.tgz",
+  "_shasum": "10ef0ba805fce054df860ae3a5c1e257ed200155",
+  "_shrinkwrap": null,
+  "_spec": "nativescript-socketio",
+  "_where": "/Users/itexico/Documents/fortunecookie/cookie-api/cookieapp",
+  "author": {
+    "name": "Osei Fortune",
+    "email": "fortune.osei@yahoo.com",
+    "url": "https://github.com/triniwiz"
+  },
+  "bugs": {
+    "url": "https://github.com/triniwiz/nativescript-socketio/issues"
+  },
+  "contributors": [
+    {
+      "name": "Don Burgess",
+      "email": "don@db3dev.com",
+      "url": "https://github.com/db3dev"
+    },
+    {
+      "name": "Robert Laverty",
+      "email": "roblav96@gmail.com",
+      "url": "https://github.com/roblav96"
+    }
+  ],
+  "dependencies": {},
+  "description": "Socket.IO for nativescript",
+  "devDependencies": {
+    "tns-core-modules": "^2.2.0",
+    "tns-platform-declarations": "^2.2.0",
+    "typescript": "^1.8.7"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "10ef0ba805fce054df860ae3a5c1e257ed200155",
+    "tarball": "https://registry.npmjs.org/nativescript-socketio/-/nativescript-socketio-2.2.9.tgz"
+  },
+  "gitHead": "3435a8c0632475a9eb757ac7d0bb8fd805cf681b",
+  "homepage": "https://github.com/triniwiz/nativescript-socketio",
+  "keywords": [
+    "nativescript",
+    "ecosystem:nativescript",
+    "nativescript-android",
+    "nativescript-ios",
+    "NativeScript",
+    "JavaScript",
+    "Android",
+    "IOS",
+    "socket.io",
+    "socketio",
+    "io",
+    "socket",
+    "events",
+    "tcp",
+    "websocket",
+    "framework",
+    "realtime"
+  ],
+  "license": "MIT",
+  "main": "socketio.js",
+  "maintainers": [
+    {
+      "name": "db3dev",
+      "email": "don@db3dev.com"
+    },
+    {
+      "name": "roblav96",
+      "email": "roblav96@gmail.com"
+    },
+    {
+      "name": "triniwiz",
+      "email": "fortune.osei@yahoo.com"
+    }
+  ],
+  "name": "nativescript-socketio",
+  "nativescript": {
+    "platforms": {
+      "android": "1.6.0",
+      "ios": "1.6.0"
+    }
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/triniwiz/nativescript-socketio.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "demo.android": "npm run preparedemo; cd demo; tns run android",
+    "demo.ios": "npm run preparedemo; cd demo; tns run ios",
+    "preparedemo": "npm run build ; cd demo ; tns plugin remove nativescript-socketio ; tns plugin add .. ; tns install",
+    "prepublish": "npm run build",
+    "setup": "cd demo; npm install; cd ..; cd demo; tns plugin add ..; cd .."
+  },
+  "version": "2.2.9"
+}

@@ -1,0 +1,9 @@
+use_frameworks!
+
+target "cookieapp" do
+# Begin Podfile - /Users/itexico/Documents/fortunecookie/cookieapp/node_modules/nativescript-socketio/platforms/ios/Podfile 
+ pod 'Socket.IO-Client-Swift', :git => 'https://github.com/socketio/socket.io-client-swift.git'
+ 
+ # End Podfile 
+
+end

@@ -1,0 +1,16 @@
+// 
+
+android {
+	productFlavors {
+		'nativescriptsocketio' {
+			dimension 'nativescriptsocketio'
+		}
+	}
+}
+
+dependencies {
+	compile('io.socket:socket.io-client:0.8.2') {
+		exclude group: 'org.json', module: 'json'
+	}
+}
+

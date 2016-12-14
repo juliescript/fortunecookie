@@ -5,6 +5,10 @@
       "fortuneapp": {
         "path": "../fortuneapp",
         "type": "nativescript2"
+      },
+      "cookieapp": {
+        "path": "../cookieapp",
+        "type": "nativescript2"
       }
     }
   },
